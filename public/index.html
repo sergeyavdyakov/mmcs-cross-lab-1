@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>My awesome resume</title>
+    <meta name="description" content="My awesome resume">
+    <meta name="author" content="Johny Catswill">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+      (function() {
+        document.addEventListener('DOMContentLoaded', function(){ 
+          const button = window.document.querySelector('.actions__download-btn');
+          button.onclick = function() {
+            const  source = window.document.querySelector('.resume-page');
+            html2pdf(source);
+          };
+        }, false);
+      })();
+    </script>
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="logo">
+          <a href="/" class="logo__text">Self CV Builder</a>
+        </div>
+        <div class="actions">
+          <button class="actions__download-btn">Download PDF</button>
+        </div>
+      </div>   
+    </header>
+    <main class="resume-container">
+      <div class="resume-page">
+        <div  class="resume-page__content">
+          <img src="/images/profile.jpg" width="70" height="70">
+          <div>Johny Catswill</div>
+          <div>software developer</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
