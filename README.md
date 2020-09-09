@@ -2,7 +2,7 @@
 ## Задание
 Сверстать собственное резюме.
 1.  Макет доступен по ссылке https://www.figma.com/file/q1ss5HpJIbaWvJefgQNxz6/Lab-1
-2.  Для написания резюме можно пользоваться, например, следующими ресурсами: <br> https://journal.tinkoff.ru/guide/resume/ <br> http://maximilyahov.ru/blog/all/rasskaz-o-sebe/
+2.  Для написания резюме можно пользоваться, например, следующими ресурсами: <br> https://journal.tinkoff.ru/guide/resume/ <br> http://maximilyahov.ru/blog/all/rasskaz-o-sebe/ <br> https://resume.io/how-to-write-a-resume
 
 
 Для запуска необходимо:
