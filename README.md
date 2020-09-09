@@ -8,6 +8,6 @@
 Для запуска необходимо:
 1. Установить Node.js https://nodejs.org/en/
 2. Перейти в терминале в директорию с проектом
-3. npm install
-6. npm start
+3. `npm install`
+6. `npm start`
 7. Открыть http://localhost:8080 в браузере
